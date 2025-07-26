@@ -80,15 +80,15 @@ a:hover{
     width: 100%;
     height: 130px;
     background-color: #FAC769;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .content3{
-    /* position: relative;
+    position: absolute;
     top: 35%;
-    left: 17.5%;
-     */
+    left: 17.5%;   
      color: white;
 }
 b{
