@@ -94,3 +94,107 @@ a:hover{
 b{
     font-size: 35px;
 }
+/* section 4 */
+
+.container4{
+    width: 100%;
+    height: 600px;    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.content4{
+    width: 83%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 30px;
+
+}
+img{
+    width: 100%;
+    height: 65%;
+            
+}
+.card1{
+    width: 30%;
+    height: 350px;
+    background-color: #FAC769;
+    position: relative;
+}    
+.cardhead{
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    background: #FAC769;
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cardtext{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* section 5 */
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.content5 img{
+    width: 23%;
+}
+.content5 img:hover{
+    transform: scale(1.1);
+}
+.content5{
+    width: 83%;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+/* section 6 */
+
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 165px;
+    background-color: #FAC769;
+    margin-top: 50px;
+    position: relative;
+}
+.content6{
+    width: 65%;
+}
+/* section 7 */
+.container7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.content7{
+    width: 60%;  
+}
+/* section 8 */
+.container8{
+    width: 100%;
+}
+.content8{
+    text-align: center;
+}
