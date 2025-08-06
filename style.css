@@ -9,6 +9,34 @@
     color: white;
 }
 /* banner section */
+.nav{
+    width: 100%;
+    position: fixed;
+}
+#open{
+    position: absolute;
+    left: 92%;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu{
+    width: 100%;
+    height: 400px;
+    background-color: goldenrod;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#close{
+    display: none;
+    position: absolute;
+    left: 92%;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;    
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -39,6 +67,7 @@ button{
     border: none;
     border-radius: 60px;
     margin: 20px 0;
+    cursor: pointer;
 }
 button:hover{
     background: transparent;
@@ -70,6 +99,7 @@ p{
 a{
     text-decoration: none;
     color: rgb(167, 0, 167);
+    cursor: pointer;
 }
 a:hover{
     color: black;
@@ -190,12 +220,44 @@ img{
 .container7{
     width: 100%;
     display: flex;
+    height: 350px;
     justify-content: center;
     align-items: center;
-    height: 400px;
 }
 .content7{
-    width: 60%;  
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.features{
+    display: flex;
+    justify-content: center ;
+    gap: 30px;
+}
+.feature1{
+    
+    width: 250px;
+    position: relative;
+}
+.feature1 h1{
+    color: #FAC769;
+    font-size: 70px;
+}
+.feature1 h6{
+    position: absolute;
+    top: 36px;
+    left: 3px;
+    font-size: 15px;
+}
+.feature1 span{
+    font-size: 20px;
+    color: grey;
+}
+.feature1 a{
+    color: #FAC769;
+    text-decoration: none;
 }
 /* section 8 */
 .container8{
