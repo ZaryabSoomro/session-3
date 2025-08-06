@@ -22,8 +22,8 @@
 }
 .menu{
     width: 100%;
-    height: 400px;
-    background-color: goldenrod;
+    height: 330px;
+    background-color: #FAC769;
     display: none;
     position: absolute;
     top: 0;
@@ -36,6 +36,42 @@
     top: 20px;
     font-size: 30px;
     cursor: pointer;    
+}
+ul{
+    text-align: center;
+    margin-top: 20px;
+}
+li{
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+li:hover{
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.buynow{
+    background-color: white;
+    color: black;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: large;    
+   
+}
+.buynow:hover{
+    transform: translateY(-5px);
+    background-color: white;
+    border: 1px solid white;
 }
 .container{
     width: 100%;
@@ -182,6 +218,7 @@ img{
 }
 .content5 img{
     width: 23%;
+    
 }
 .content5 img:hover{
     transform: scale(1.1);
